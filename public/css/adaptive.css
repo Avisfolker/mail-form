@@ -1,0 +1,303 @@
+@media screen and (max-width: 1299px) {
+    .lp .in-block {
+
+        width: 100%;
+    }
+
+    body {
+        min-width: 320px;
+    }
+
+    .price .in-block .price-img {
+
+        left: 37px;
+
+        width: 257px;
+
+        height: 554px;
+    }
+
+    .head {
+        background: url(/img/head_bg.jpg) -858px 0 no-repeat;
+        background-size: cover;
+    }
+
+    .about .in-block:after {
+
+        width: 310px;
+
+        height: 552px;
+    }
+
+    .about .in-block .discount {
+
+        width: 147px;
+
+        height: 134px;
+    }
+    .about {
+    background: #749068 url(/img/about_bg.jpg) 100% 0 no-repeat;
+    background-size: cover;
+}
+}
+
+@media screen and (max-width: 1023px) {
+
+    .lp .in-block {
+
+        width: 100%;
+
+        height: 400px;
+    }
+    .lp .options .in-block {
+    width: 100%;
+    height: auto;
+    }
+
+    body {
+    }
+
+    .price .in-block .price-img {
+
+        left: 21px;
+
+        width: 164px;
+
+        height: 346px;
+    }
+
+    .head {
+        background: url(/img/head_bg.jpg) 38% 0 no-repeat;
+        background-size: cover;
+    }
+
+    .about .in-block:after {
+        display: none;
+    }
+
+    .about .in-block .discount {
+
+        width: 110px;
+
+        height: 110px;
+
+        right: 170px;
+
+        top: -60px;
+    }
+
+    .head .text {
+
+        font-size: 32px;
+
+        right: 30px;
+
+        bottom: 70px;
+    }
+
+    .options ul {
+
+        padding: 63px 18px 18px;
+    }
+
+    .options ul li {
+        margin: 11px 0;
+    }
+
+    .options .in-block:before {
+
+        left: 30px;
+    }
+
+    .about .block-text {
+
+        padding: 70px 18px 35px;
+    }
+
+    .lp .about .in-block {
+        height: auto;
+    }
+
+    .about {
+        background: #a7b29f url(/img/about_bg.jpg) 100% -271px no-repeat;
+        background-size: 1024px;
+    }
+
+    .office-mapoffice-map {
+        display: none;
+    }
+
+    .about p a.red {
+        color: #ef5528;
+    }
+
+    .head .top-menu li.no-planshet {
+        display: none;
+    }
+
+    .location .text {
+
+        font-size: 60px;
+    }
+
+    .feedback form {
+
+        width: 620px;
+    }
+
+    .feedback .form-block.numb {
+        display: none;
+    }
+
+    .feedback .form-block.name {
+
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .head {
+        background: url(/img/head_bg_min.jpg) 42% 0px no-repeat;
+        background-size: cover;
+    }
+
+    .lp .head .in-block {
+        width: 100%;
+        height: 222px;
+    }
+
+    .head .text {
+        font-size: 18px;
+        right: 0;
+        bottom: 13px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .head .top-menu li {
+
+        padding: 12px 22px;
+    }
+
+    .options .in-block:before {
+
+        left: 100px;
+
+        top: 20px;
+
+        left: 0;
+
+        width: 100%;
+
+        height: 41px;
+
+        background: url(/img/option_text.png) 50% no-repeat;
+
+        background-size: 266px;
+    }
+
+    .options ul li {
+
+        width: 100%;
+
+        margin: 9px 0;
+    }
+
+    .lp .in-block {
+        width: 100%;
+        height: auto;
+    }
+
+    .options ul li .icon {
+
+        height: 60px;
+
+        width: 60px;
+
+        background-size: contain;
+    }
+
+    .price .in-block .price-img {
+        display: none;
+    }
+
+    .price .block-text {
+
+        width: 320px;
+
+        padding: 30px 0px;
+
+        text-align: center;
+    }
+
+    h2 {
+
+        font-size: 48px;
+
+        padding-bottom: 26px;
+    }
+
+    .price h3 {
+
+        padding-bottom: 18px;
+    }
+
+    .about .in-block .discount {
+
+        width: 87px;
+
+        height: 78px;
+
+        right: 22px;
+
+        top: -37px;
+    }
+
+    .about .block-text {
+
+        width: 100%;
+
+        padding: 70px 18px 35px;
+
+        box-sizing: border-box;
+    }
+
+    .feedback form {
+
+        width: 100%;
+
+        padding: 46px 18px 32px;
+
+        box-sizing: border-box;
+    }
+
+    .about {
+
+background: #a7b29f url(/img/about_bg.jpg) 100% -158px no-repeat;
+
+background-size: 720px;
+
+}
+
+    .location .text {
+
+        font-size: 40px;
+
+        left: 60px;
+    }
+    .about h3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .head .top-menu li {
+
+        padding: 5px 22px;
+    }
+
+    .head .top-menu li a {
+
+        font-size: 9px;
+    }
+}

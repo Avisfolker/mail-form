@@ -1,0 +1,7 @@
+npm-debug.log
+.idea/
+dump.rdb
+.vscode/
+coverage/
+.nyc_output/
+*.env

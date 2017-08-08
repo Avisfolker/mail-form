@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <!--<meta name="viewport" content="width=device-width" />-->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Page title set in pageTitle directive -->
+  <title>Mail form</title>
+  <meta name="description" content="Mail form">
+  <meta name="keywords" content="Mail form">
+
+  <!-- link stylesheet -->
+
+  <link  href="css/default.css" rel="stylesheet">
+  <link  href="css/adaptive.css" rel="stylesheet">
+</head>
+
+<!-- ControllerAs syntax -->
+<body class="lp">
+
+
+  <div class="feedback">
+    <div class="in-block">
+    <div class="mes" >
+      <form id="myForm" name="feedback" >
+        <h2 >My Form</h2>
+        <div class="form-block name ">
+          <label>ФИО* </label>
+          <input  class="required" placeholder="Валерий Чкалов" type="text" name="fio">
+        </div>
+        <div class="form-block ">
+          <label>Email*</label>
+          <input  class="required" placeholder="name@mail.ru" type="text" name="email">
+        </div>
+        <div class="form-block ">
+          <label>Телефон*</label>
+          <input  class="required"  placeholder="name@mail.ru" type="text" name="phone">
+        </div>
+
+
+
+          <a   class="btn" id="submitButton" >Отправить</a>
+      </form>
+      <div class="spinner" >
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+      <h2 class="ok-mesege"  id="resultContainer"></h2>
+    </div>
+
+  </div>
+  </div>
+
+
+  <!-- jQuery and Bootstrap -->
+
+
+  <script src="js/lib/jquery/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+
+</body>
+</html>

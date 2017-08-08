@@ -1,0 +1,571 @@
+/* Empty. Add your own CSS if you like */
+
+@font-face {
+    font-family: 'sfuidisplay-semibold-webfont';
+    src: url(../font/sfuidisplay-semibold-webfont.eot);
+    src: url(../font/sfuidisplay-semibold-webfont.eot?#iefix) format('embedded-opentype'), url(../font/sfuidisplay-semibold-webfont.woff2) format('woff2'), url(../font/sfuidisplay-semibold-webfont.woff) format('woff'), url(../font/sfuidisplay-semibold-webfont.ttf) format('truetype'), url(../font/sfuidisplay-semibold-webfont.svg#sfuidisplay-semibold-webfont) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sfuidisplay-regular-webfont';
+    src: url(../font/sfuidisplay-regular-webfont.eot);
+    src: url(../font/sfuidisplay-regular-webfont.eot?#iefix) format('embedded-opentype'), url(../font/sfuidisplay-regular-webfont.woff2) format('woff2'), url(../font/sfuidisplay-regular-webfont.woff) format('woff'), url(../font/sfuidisplay-regular-webfont.ttf) format('truetype'), url(../font/sfuidisplay-regular-webfont.svg#sfuidisplay-regular-webfont) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sfuidisplay-light-webfont';
+    src: url(../font/sfuidisplay-light-webfont.eot);
+    src: url(../font/sfuidisplay-light-webfont.eot?#iefix) format('embedded-opentype'), url(../font/sfuidisplay-light-webfont.woff2) format('woff2'), url(../font/sfuidisplay-light-webfont.woff) format('woff'), url(../font/sfuidisplay-light-webfont.ttf) format('truetype'), url(../font/sfuidisplay-light-webfont.svg#sfuidisplay-light-webfont) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sfuidisplay-thin-webfont';
+    src: url(../font/sfuidisplay-thin-webfont.eot);
+    src: url(../font/sfuidisplay-thin-webfont.eot?#iefix) format('embedded-opentype'), url(../font/sfuidisplay-thin-webfont.woff2) format('woff2'), url(../font/sfuidisplay-thin-webfont.woff) format('woff'), url(../font/sfuidisplay-thin-webfont.ttf) format('truetype'), url(../font/sfuidisplay-thin-webfont.svg#sfuidisplay-thin-webfont) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebasneue_regular-webfont';
+    src: url(../font/bebasneue_regular-webfont.eot);
+    src: url(../font/bebasneue_regular-webfont.eot?#iefix) format('embedded-opentype'), url(../font/bebasneue_regular-webfont.woff2) format('woff2'), url(../font/bebasneue_regular-webfont.woff) format('woff'), url(../font/bebasneue_regular-webfont.ttf) format('truetype'), url(../font/bebasneue_regular-webfont.svg#bebasneue_regular-webfont) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'flamme-let-plain';
+    src: url(../font/flamme-let-plain.eot);
+    src: url(../font/flamme-let-plain.eot?#iefix) format('embedded-opentype'), url(../font/flamme-let-plain.woff2) format('woff2'), url(../font/flamme-let-plain.woff) format('woff'), url(../font/flamme-let-plain.ttf) format('truetype'), url(../font/flamme-let-plain.svg#flamme-let-plain) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 120%;
+}
+
+a {
+    color: #434343
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+textarea,
+input,
+button {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.cf:before,
+.cf:after,
+.row:before,
+.row:after {
+    content: " ";
+    display: block;
+}
+
+.cf:after,
+.row:after {
+    clear: both;
+}
+
+.cf,
+.row {
+    *zoom: 1;
+}
+
+a.activated,
+button.activated {
+    opacity: 0.8;
+}
+
+em {
+    font-style: italic
+}
+
+* {
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    color: #fff;
+    min-width: 320px;
+    background-repeat: repeat;
+    height: 100%;
+    max-width: none;
+    margin: 0 auto;
+}
+
+.wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -294px;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrap:after {
+    content: "";
+    display: block;
+    height: 294px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'sfuidisplay-regular-webfont';
+    color: #434343;
+}
+
+body {
+
+font-size: 14px;
+
+font-family: 'sfuidisplay-regular-webfont', Arial, Helvetica, sans-serif;
+
+font-weight: normal;
+
+font-style: normal;
+
+font-stretch: normal;
+
+line-height: 150%;
+
+letter-spacing: normal;
+
+color: #4a4a4a;
+
+min-width: 1280px;
+
+background: #52a68f;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+}
+
+.move-block {
+    position: relative;
+}
+
+
+
+
+
+a img {
+    border: none;
+}
+
+
+
+
+
+path {
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+h2 {
+    font-family: 'flamme-let-plain';
+    font-size: 87px;
+    line-height: 0.9;
+    color: #ffffff;
+    padding-bottom: 38px;
+}
+
+
+
+p {
+    padding-bottom: 10px;
+}
+
+
+
+.btn {
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    letter-spacing: 2.4px;
+
+    text-align: center;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    width: 250px;
+
+    height: 60px;
+
+    border-radius: 100px;
+
+    background-color: #ef5528;
+
+    text-transform: uppercase;
+
+    line-height: 60px;
+
+    margin: 18px 0;
+
+    border: 0;
+
+    transition: all 1s ease-out 0.005s;
+
+    display: inline-block;
+}
+
+.btn:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.btn:hover, button {
+
+    background-color: rgb(255, 150, 120);
+}
+
+
+.feedback .btn {
+
+    margin: 0;
+}
+
+.feedback {
+
+background: #52a68f;
+}
+
+.feedback .mes {
+    height: 666px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+}
+
+.feedback .in-block {
+    display: table;
+    width: 100%;
+}
+
+.feedback form {
+
+    width: 750px;
+
+    margin: 0 auto;
+
+    padding: 46px 0 32px;
+
+    text-align: center;
+}
+
+.feedback .form-block.numb {
+
+    width: 17%;
+
+    min-width: 112px;
+
+    display: inline-block;
+
+    float: left;
+}
+
+.feedback .form-block.name {
+
+display: block;
+}
+
+.feedback form .form-block {
+
+float: left;
+
+width: 100%;
+}
+
+.feedback form .form-block label {
+
+    font-size: 14px;
+
+    letter-spacing: 2.8px;
+
+    text-align: left;
+
+    color: #ffffff;
+
+    margin-bottom: 12px;
+
+    display: block;
+}
+
+.feedback form.ng-submitted .form-block .required.ng-empty {
+    border: 2px solid rgba(239, 85, 40, 0.83);
+}
+
+.feedback form.ng-invalid-email .form-block .required.ng-invalid-email, .feedback form.ng-submitted .form-block .required.ng-invalid-email {
+    border: 2px solid rgba(239, 85, 40, 0.83);
+}
+
+.feedback form .form-block input {
+
+    width: 100%;
+
+    height: 45px;
+
+    background-color: #fafafa;
+
+    border: solid 1px #e6e6e6;
+
+    font-size: 14px;
+
+    text-align: left;
+
+    padding: 12px;
+
+    box-sizing: border-box;
+
+    color: #292929;
+
+    margin-bottom: 34px;
+
+    border-radius: 6px;
+
+    box-shadow: none;
+
+    font-family: 'sfuidisplay-regular-webfont';
+
+    -webkit-appearance: none;
+
+    -moz-appearance: none;
+
+    appearance: none;
+
+    /* margin: 0; */
+}
+
+
+.feedback form .form-block textarea {
+    width: 100%;
+    height: 150px;
+    background-color: #fafafa;
+    border: solid 1px #e6e6e6;
+    padding: 12px;
+    box-sizing: border-box;
+    color: #292929;
+    font-size: 14px;
+    margin-bottom: 34px;
+    border-radius: 6px;
+    resize: none;
+    box-shadow: none;
+    font-family: 'sfuidisplay-regular-webfont';
+    line-height: 1.86;
+}
+
+.spinner {
+    margin: 100px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    -webkit-animation: sk-rotate 2.0s infinite linear;
+    animation: sk-rotate 2.0s infinite linear;
+    display: none;
+}
+
+.dot1, .dot2 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+    top: auto;
+    bottom: 0;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 50% {
+          transform: scale(1.0);
+          -webkit-transform: scale(1.0);
+      }
+}
+.ok-mesege {
+    display: none;
+}
+
