@@ -1,53 +1,5 @@
 /* Empty. Add your own CSS if you like */
 
-@font-face {
-    font-family: 'sfuidisplay-semibold-webfont';
-    src: url(../font/sfuidisplay-semibold-webfont.eot);
-    src: url(../font/sfuidisplay-semibold-webfont.eot?#iefix) format('embedded-opentype'), url(../font/sfuidisplay-semibold-webfont.woff2) format('woff2'), url(../font/sfuidisplay-semibold-webfont.woff) format('woff'), url(../font/sfuidisplay-semibold-webfont.ttf) format('truetype'), url(../font/sfuidisplay-semibold-webfont.svg#sfuidisplay-semibold-webfont) format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'sfuidisplay-regular-webfont';
-    src: url(../font/sfuidisplay-regular-webfont.eot);
-    src: url(../font/sfuidisplay-regular-webfont.eot?#iefix) format('embedded-opentype'), url(../font/sfuidisplay-regular-webfont.woff2) format('woff2'), url(../font/sfuidisplay-regular-webfont.woff) format('woff'), url(../font/sfuidisplay-regular-webfont.ttf) format('truetype'), url(../font/sfuidisplay-regular-webfont.svg#sfuidisplay-regular-webfont) format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'sfuidisplay-light-webfont';
-    src: url(../font/sfuidisplay-light-webfont.eot);
-    src: url(../font/sfuidisplay-light-webfont.eot?#iefix) format('embedded-opentype'), url(../font/sfuidisplay-light-webfont.woff2) format('woff2'), url(../font/sfuidisplay-light-webfont.woff) format('woff'), url(../font/sfuidisplay-light-webfont.ttf) format('truetype'), url(../font/sfuidisplay-light-webfont.svg#sfuidisplay-light-webfont) format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'sfuidisplay-thin-webfont';
-    src: url(../font/sfuidisplay-thin-webfont.eot);
-    src: url(../font/sfuidisplay-thin-webfont.eot?#iefix) format('embedded-opentype'), url(../font/sfuidisplay-thin-webfont.woff2) format('woff2'), url(../font/sfuidisplay-thin-webfont.woff) format('woff'), url(../font/sfuidisplay-thin-webfont.ttf) format('truetype'), url(../font/sfuidisplay-thin-webfont.svg#sfuidisplay-thin-webfont) format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'bebasneue_regular-webfont';
-    src: url(../font/bebasneue_regular-webfont.eot);
-    src: url(../font/bebasneue_regular-webfont.eot?#iefix) format('embedded-opentype'), url(../font/bebasneue_regular-webfont.woff2) format('woff2'), url(../font/bebasneue_regular-webfont.woff) format('woff'), url(../font/bebasneue_regular-webfont.ttf) format('truetype'), url(../font/bebasneue_regular-webfont.svg#bebasneue_regular-webfont) format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'flamme-let-plain';
-    src: url(../font/flamme-let-plain.eot);
-    src: url(../font/flamme-let-plain.eot?#iefix) format('embedded-opentype'), url(../font/flamme-let-plain.woff2) format('woff2'), url(../font/flamme-let-plain.woff) format('woff'), url(../font/flamme-let-plain.ttf) format('truetype'), url(../font/flamme-let-plain.svg#flamme-let-plain) format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 html,
 body,
 div,
@@ -261,7 +213,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'sfuidisplay-regular-webfont';
     color: #434343;
 }
 
@@ -269,7 +220,7 @@ body {
 
 font-size: 14px;
 
-font-family: 'sfuidisplay-regular-webfont', Arial, Helvetica, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 
 font-weight: normal;
 
@@ -285,7 +236,7 @@ color: #4a4a4a;
 
 min-width: 1280px;
 
-background: #52a68f;
+/* background: #52a68f; */
 }
 
 .wrapper {
@@ -298,44 +249,23 @@ background: #52a68f;
     position: relative;
 }
 
-
-
-
-
 a img {
     border: none;
 }
-
-
-
-
 
 path {
 
     cursor: pointer;
 }
 
-
-
-
-
-
-
 h2 {
-    font-family: 'flamme-let-plain';
-    font-size: 87px;
+    font-size: 26px;
     line-height: 0.9;
-    color: #ffffff;
-    padding-bottom: 38px;
 }
-
-
 
 p {
     padding-bottom: 10px;
 }
-
-
 
 .btn {
 
@@ -372,16 +302,19 @@ p {
     display: inline-block;
 }
 
-.btn:disabled {
+.btn:disabled,.btn[disabled="disabled"] {
     opacity: 0.3;
     cursor: default;
 }
+.btn:disabled:hover, .btn[disabled="disabled"]:hover {
 
-.btn:hover, button {
+    background-color: #ef5528;
+}
+
+.btn:hover {
 
     background-color: rgb(255, 150, 120);
 }
-
 
 .feedback .btn {
 
@@ -390,15 +323,14 @@ p {
 
 .feedback {
 
-background: #52a68f;
+/* background: #52a68f; */
 }
 
 .feedback .mes {
     height: 666px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
+    display: block;
     width: 100%;
+    text-align: center;
 }
 
 .feedback .in-block {
@@ -430,14 +362,14 @@ background: #52a68f;
 
 .feedback .form-block.name {
 
-display: block;
+    display: block;
 }
 
 .feedback form .form-block {
 
-float: left;
+    float: left;
 
-width: 100%;
+    width: 100%;
 }
 
 .feedback form .form-block label {
@@ -465,41 +397,38 @@ width: 100%;
 
 .feedback form .form-block input {
 
-    width: 100%;
+width: 100%;
 
-    height: 45px;
+height: 45px;
 
-    background-color: #fafafa;
+background-color: #edebeb;
 
-    border: solid 1px #e6e6e6;
+border: solid 1px #c2bdbd;
 
-    font-size: 14px;
+font-size: 14px;
 
-    text-align: left;
+text-align: left;
 
-    padding: 12px;
+padding: 12px;
 
-    box-sizing: border-box;
+box-sizing: border-box;
 
-    color: #292929;
+color: #292929;
 
-    margin-bottom: 34px;
+margin-bottom: 34px;
 
-    border-radius: 6px;
+border-radius: 6px;
 
-    box-shadow: none;
+box-shadow: none;
 
-    font-family: 'sfuidisplay-regular-webfont';
+-webkit-appearance: none;
 
-    -webkit-appearance: none;
+-moz-appearance: none;
 
-    -moz-appearance: none;
+appearance: none;
 
-    appearance: none;
-
-    /* margin: 0; */
+/* margin: 0; */
 }
-
 
 .feedback form .form-block textarea {
     width: 100%;
@@ -514,7 +443,6 @@ width: 100%;
     border-radius: 6px;
     resize: none;
     box-shadow: none;
-    font-family: 'sfuidisplay-regular-webfont';
     line-height: 1.86;
 }
 
@@ -548,24 +476,57 @@ width: 100%;
     animation-delay: -1.0s;
 }
 
-@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
-@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+@-webkit-keyframes sk-rotate {
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes sk-rotate {
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg)
+    }
+}
 
 @-webkit-keyframes sk-bounce {
-    0%, 100% { -webkit-transform: scale(0.0) }
-    50% { -webkit-transform: scale(1.0) }
+    0%, 100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
 }
 
 @keyframes sk-bounce {
     0%, 100% {
         transform: scale(0.0);
         -webkit-transform: scale(0.0);
-    } 50% {
-          transform: scale(1.0);
-          -webkit-transform: scale(1.0);
-      }
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
 }
-.ok-mesege {
-    display: none;
+
+#resultContainer {
+    font-size: 27px;
+    letter-spacing: 2.4px;
+    min-height: 30px;
+    padding: 10px 0;
+}
+
+input.error {
+    border: 1px solid red !important;
+}
+
+#resultContainer.error {
+    color: red !important;
+}
+
+#resultContainer.progress {
+    background: url(../img/ajax-loader.gif) 0 4px no-repeat;
+    display: inline-block;
+    padding-left: 40px;
 }
 
